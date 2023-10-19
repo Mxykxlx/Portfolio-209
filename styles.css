@@ -1,0 +1,112 @@
+/* Style for the modal */
+.modalsa {
+    display: none;
+    position: fixed;
+    z-index: 1;
+    padding-top: 50px;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    overflow: auto;
+    background-color: rgb(0,0,0);
+    background-color: rgba(0,0,0,0.9);
+  }
+  
+  .modal-contentsa {
+    margin: auto;
+    display: block;
+    max-width: 95%;
+    max-height: 95%;
+  }
+  
+  .closesa {
+    position: absolute;
+    top: 15px;
+    right: 35px;
+    color: #f1f1f1;
+    font-size: 40px;
+    font-weight: bold;
+    cursor: pointer;
+  }
+  
+
+
+
+
+
+/* Style for the modal */
+.modalva {
+    display: none;
+    position: fixed;
+    z-index: 1;
+    padding-top: 50px;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    overflow: auto;
+    background-color: rgb(0,0,0);
+    background-color: rgba(0,0,0,0.9);
+  }
+  
+  .modal-contentva {
+    margin: auto;
+    display: block;
+    max-width: 100%;
+    max-height: 100%;
+  }
+  
+  .closeva {
+    position: absolute;
+    top: 15px;
+    right: 35px;
+    color: #f1f1f1;
+    font-size: 40px;
+    font-weight: bold;
+    cursor: pointer;
+  }
+  
+
+
+
+
+
+
+
+
+
+  /* Style for the modal */
+.modalanm {
+    display: none;
+    position: fixed;
+    z-index: 1;
+    padding-top: 50px;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    overflow: auto;
+    background-color: rgb(0,0,0);
+    background-color: rgba(0,0,0,0.9);
+  }
+  
+  .modal-contentanm {
+    margin: auto;
+    display: block;
+    max-width: 100%;
+    max-height: 100%;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  .closeanm {
+    position: absolute;
+    top: 15px;
+    right: 35px;
+    color: #f1f1f1;
+    font-size: 40px;
+    font-weight: bold;
+    cursor: pointer;
+  }
+  
