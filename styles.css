@@ -16,8 +16,8 @@
   .modal-contentsa {
     margin: auto;
     display: block;
-    max-width: 95%;
-    max-height: 95%;
+    width: 45%;
+    height: 95%;
   }
   
   .closesa {
@@ -53,8 +53,8 @@
   .modal-contentva {
     margin: auto;
     display: block;
-    width: 700px;
-    height: 500px;
+    width: 60%;
+    height: 95%;
   }
   
   .closeva {
@@ -94,8 +94,8 @@
   .modal-contentanm {
     margin: auto;
     display: block;
-    width: 800px;
-    height: 500px;
+    width: 75%;
+    height: 95%;
     align-items: center;
     justify-content: center;
   }
@@ -110,3 +110,13 @@
     cursor: pointer;
   }
   
+
+
+  #title{
+    font-family: "Times New Roman", Times, serif;
+    font-style: italic;
+  }
+
+  #main{
+    color: #293242;
+  }

@@ -7,16 +7,17 @@
     <link href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css" rel="stylesheet">
     <script src="cl.js"></script>
 </head>
-<body class="bg-gray-400">
+<body class="bg-cover bg-center bg-no-repeat" style="background-image: url('Images/bg.png')">
 
 <div class="container mx-auto p-8">
-    <h1 class="text-4xl font-bold text-center mb-8">Interactive Systems and Technologies Projects</h1>
+    <h1 id="main" class="text-4xl font-bold text-center mb-5">INTERACTIVE SYSTEMS & TECHNOLOGIES PROJECTS</h1>
     <div id="sa">
-        <h1 class="text-2xl font-bold mb-5">Simple Activities</h1>
+        <h1 id="title" class="text-2xl font-bold text-gray-700">PHOTOSHOP ACTIVITIES</h1>
+        <div class="bg-gray-500 h-1 mt-3 mb-3"></div>
 
         <div class="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-3 gap-8 mx-auto text-center">
-            <img id="sa1" src="Images/Act1.png" class="rounded-lg border border-gray-300 hover:scale-110 transform transition-transform duration-300 cursor-pointer" onclick="opensa('Images/oi/oAct1.jpg')">
-            <img id="sa2" src="Images/Act2.png" class="rounded-lg border border-gray-300 hover:scale-110 transform transition-transform duration-300 cursor-pointer" onclick="opensa('Images/oi/oAct2.jpg')">
+            <img id="sa1" src="Images/Act1.png" class="rounded-lg border border-gray-400 hover:scale-110 transform transition-transform duration-300 cursor-pointer" onclick="opensa('Images/oi/oAct1.jpg')">
+            <img id="sa2" src="Images/Act2.png" class="rounded-lg border border-gray-400 hover:scale-110 transform transition-transform duration-300 cursor-pointer" onclick="opensa('Images/oi/oAct2.jpg')">
 
 
             <!-- The Modal -->
@@ -32,12 +33,13 @@
 
 
     <div id="va">
-        <h1 class="text-2xl font-bold mt-20 mb-5">Vector Art Activities</h1>
+        <h1 id="title" class="text-2xl font-bold mt-14 text-gray-700">VECTOR ART ACTIVITIES</h1>
+        <div class="bg-gray-500 h-1 mt-3 mb-3"></div>
 
         <div class="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-3 gap-8 mx-auto text-center">
-            <img src="Images/VectorAct1.png" class="rounded-lg border border-gray-300 hover:scale-110 transform transition-transform duration-300 cursor-pointer" onclick="openModalva('Images/oi/oVectorAct1.jpg')">
-            <img src="Images/VectorAct2.png" class="rounded-lg border border-gray-300 hover:scale-110 transform transition-transform duration-300 cursor-pointer" onclick="openModalva('Images/oi/oVectorAct2.jpg')">
-            <img src="Images/VectorAct3.png" class="rounded-lg border border-gray-300 hover:scale-110 transform transition-transform duration-300 cursor-pointer" onclick="openModalva('Images/oi/oVectorAct3.jpg')">
+            <img src="Images/VectorAct1.png" class="rounded-lg border border-gray-400 hover:scale-110 transform transition-transform duration-300 cursor-pointer" onclick="openModalva('Images/oi/oVectorAct1.jpg')">
+            <img src="Images/VectorAct2.png" class="rounded-lg border border-gray-400 hover:scale-110 transform transition-transform duration-300 cursor-pointer" onclick="openModalva('Images/oi/oVectorAct2.jpg')">
+            <img src="Images/VectorAct3.png" class="rounded-lg border border-gray-400 hover:scale-110 transform transition-transform duration-300 cursor-pointer" onclick="openModalva('Images/oi/oVectorAct3.jpg')">
 
             <!-- The Modal -->
             <div id="myModalva" class="modalva">
@@ -52,7 +54,8 @@
 
 
     <div id="anmtns">
-        <h1 class="text-2xl font-bold mt-20 mb-5">Animation Activities</h1>
+        <h1 id="title" class="text-2xl font-bold mt-14 text-gray-700">ANIMATION ACTIVITIES</h1>
+        <div class="bg-gray-500 h-1 mt-3 mb-3"></div>
 
         <div class="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-3 gap-8 mx-auto text-center">
             <img src="Images/AnimationAct1.gif" class="rounded-lg hover:scale-110 transform transition-transform duration-300 cursor-pointer" onclick="openModalanm('Images/AnimationAct1.gif')">
